@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 240px;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.card h3 {
+    font-size: 23px;
+    color: #963333;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.3;
+    text-align: left;
+}
+
+.card button {
+    width: 100%;
+    padding: 13px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* BLUE CARD */
+
+.blue {
+    border-color: #263c59;
+}
+
+.blue h2 {
+    color: #263c59;
+}
+
+.blue button {
+    background-color: #3985c5;
+    border-color: #3985c5;
+}
+
+.blue button:hover {
+    background-color: #245b91;
+}
+
+/* GREEN CARD */
+
+.green {
+    border-color: #263b28;
+}
+
+.green h2 {
+    color: #263b28;
+}
+
+.green button {
+    background-color: #16852e;
+    border-color: #16852e;
+}
+
+.green button:hover {
+    background-color: #0b5420;
+}
+
+/* PURPLE CARD */
+
+.purple {
+    border-color: #39213d;
+}
+
+.purple h2 {
+    color: #39213d;
+}
+
+.purple button {
+    background-color: #a65ab2;
+    border-color: #a65ab2;
+}
+
+.purple button:hover {
+    background-color: #71327c;
+}
